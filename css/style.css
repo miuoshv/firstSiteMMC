@@ -34,7 +34,7 @@ body {
 }
 
 .nav-item a:hover {
-	color: #0086f3;
+	color: rgb(255, 132, 0);
 }
 
 /* header */
@@ -43,9 +43,9 @@ body {
 .header-img {
 	position: relative;
 	height: 300px;
-	background-image: url(../img/planet-g648d48bae_1920.jpg);
+	background-image: url(../img/steelwool-458842_1920.jpg);
 	background-size: cover;
-	background-position: 0 50%;
+	background-position:initial;
 }
 
 .header-text {
@@ -69,14 +69,73 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 3, 27, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* main */
+
+main {
+	margin: 50px auto;
+	width: 1200px;
+}
+
+main h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	position: relative;
+	margin: 40px 0px;
+	height: 300px;
+	background-attachment: fixed;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	overflow: hidden;
+}
+
+/* bc attach fixed jest zasobożerny, dlatego przeważnie używa się do tego efektu JS */
+
+.top {
+	background-image: url('../img/cup-of-coffee-1280537_1920.jpg');
+}
+
+.middle {
+	background-image: url('../img/cup-of-coffee-1280537_1920.jpg');
+
+}
+
+.bottom {
+	background-image: url('../img/cup-of-coffee-1280537_1920.jpg');
+}
+
+.about-us-text {
+	position: absolute;
+	bottom: 20px;
+	padding: 20px 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.about-us-text h3 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.about-us-bg {
+	position: absolute;
+	bottom: 0;
+	height: 45%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* footer */
 
 footer {
 	height: 80px;
-	line-height: 80px;
+	line-height: 60px;
 	color: #ddd;
 	background-color: #333;
 	text-align: center;
@@ -95,5 +154,5 @@ footer {
 }
 
 .icon-box a:hover {
-	color: #0086f3;
+	color: rgb(255, 132, 0);
 }
