@@ -45,7 +45,7 @@ body {
 	height: 300px;
 	background-image: url(../img/steelwool-458842_1920.jpg);
 	background-size: cover;
-	background-position:initial;
+	background-position: initial;
 }
 
 .header-text {
@@ -103,7 +103,6 @@ main h2 {
 
 .middle {
 	background-image: url('../img/cup-of-coffee-1280537_1920.jpg');
-
 }
 
 .bottom {
@@ -155,4 +154,53 @@ footer {
 
 .icon-box a:hover {
 	color: rgb(255, 132, 0);
+}
+
+/* uslugi.html */
+
+/* list-style: inside umieszcza kropki wewnątrz "list item" dzięki czemu gdy robię center to przechodzi razem z tekstem */
+
+.list-of-services {
+	text-align: center;
+	list-style: inside;
+}
+
+/* cennik.html */
+
+table.GeneratedTable {
+	width: 100%;
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #333;
+	border-style: solid;
+	color: #000000;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+	border-width: 2px;
+	border-color: #333;
+	border-style: solid;
+	padding: 3px;
+}
+
+table.GeneratedTable thead {
+	background-color: #333;
+	color: #ddd;
+}
+
+/* kontakt.html */
+
+.contact {
+	text-align: center;
+	font-size: 25px;
+}
+
+.contact p {
+	display: inline-block;
+}
+
+.contact-icon {
+	font-size: 35px;
 }
